@@ -30,7 +30,10 @@ export function MainPage() {
 				</MainPageChapter>
 
 				<MainPageChapter title="ESPERIENZA PROFESSIONALE">
-					gne
+					<MainPageSection title="Revolution Informatica" first="true">
+						- Assemblaggio e riparazione (hardware/software) di Pc portatili e fissi
+						- Assistenza tecnica ai clienti in prima persona
+					</MainPageSection>
 				</MainPageChapter>
 
 				<MainPageChapter title="PROGETTI PERSONALI">
@@ -45,6 +48,11 @@ export function MainPage() {
 					<MainPageSection title="Universus bot">
 						Un bot per il server discord del canale twitch UniversusTTV in Node.js
 						con app in Flutter per configurarlo
+					</MainPageSection>
+
+					<MainPageSection title="MUD Java">
+						Un&apos;avventura testuale realizzata in Java come progetto di gruppo per il corso di
+						Generation Italy
 					</MainPageSection>
 				</MainPageChapter>
 			</div>

@@ -42,10 +42,14 @@ export function Sidebar() {
 					</a>
 				</ContactLabel>
 			</SideBarSection>
-			<SideBarSection title="PROFILO">
-				dkfeajncek akejdnkajnda kj
+			<SideBarSection title="PROFILO" className="text-sm/4">
+				Analitico, curioso e creativo.<br />
+				Specializzando in Ingegneria Informatica con una visione della programmazione come forma d’arte e innovazione.<br />
+				Sono una persona empatica, professionale e orientata all&apos;eccellenza.<br />
+				Amo misurarmi con sfide tecniche sempre nuove, con l&apos;obiettivo di trasformare ogni progetto complesso in 
+				un’opportunità di apprendimento e di crescita costante.
 			</SideBarSection>
-			<SideBarSection title="AREE DI COMPETENZA">
+			<SideBarSection title="AREE DI COMPETENZA" className="text-sm/4">
 				<b>IT</b>: Java, Javascript, Typescript, React, C++, C#, GDScript, NodeJS, MYSQL, Python, Docker, Dart, Flutter <br />
 				<b>SOFT</b>: Teamwork, Problem Solving, Pensiero Critico, Adattabilità, Creatività.
 			</SideBarSection>

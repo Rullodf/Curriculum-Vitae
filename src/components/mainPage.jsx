@@ -25,14 +25,15 @@ export function MainPage() {
 					</MainPageSection>
 
 					<MainPageSection title="Diploma di Perito Informatico">
-						<i>ITISS G.Salvemini di alessano</i> 2014 - 2019<br />
+						<i>97/100 - ITISS G.Salvemini di alessano</i> 2014 - 2019<br />
 					</MainPageSection>
 				</MainPageChapter>
 
 				<MainPageChapter title="ESPERIENZA PROFESSIONALE">
-					<MainPageSection title="Revolution Informatica" first="true">
+					<MainPageSection title="Revolution Informatica | 04/2017 - 05/2017" first="true">
 						- Assemblaggio e riparazione (hardware/software) di Pc portatili e fissi
 						- Assistenza tecnica ai clienti in prima persona
+						- Alternanza scuola-lavoro
 					</MainPageSection>
 				</MainPageChapter>
 

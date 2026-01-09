@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme {
+	--color-generation-blue: #09315D;
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+/* 1. Configurazione per la STAMPANTE */
+@media print {
+  @page {
+    size: A4;
+    margin: 0; /* Rimuove i margini di default del browser (data, url, ecc) */
+  }
+  
+  body {
+    /* Assicura che i colori di sfondo vengano stampati */
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
+
+/* 2. Configurazione per lo SCHERMO (così vedi l'A4 mentre lavori) */
+.cv-page {
+  width: 210mm;
+  min-height: 297mm; /* min-height permette al contenuto di espandersi se serve */
+  margin: 20px auto; /* Centra il foglio nello schermo */
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Effetto ombra per realismo */
+  box-sizing: border-box;
+}
+
+/* Quando stampi, rimuovi ombre e margini esterni */
+@media print {
+  .cv-page {
+    margin: 0;
+    box-shadow: none;
+    border: none;
+    width: 100%; /* Occupa tutto il foglio fisico */
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

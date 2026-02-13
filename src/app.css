@@ -21,7 +21,6 @@
 
 
 
-/* 1. Configurazione per la STAMPANTE */
 @media print {
   @page {
     size: A4;
@@ -29,13 +28,11 @@
   }
   
   body {
-    /* Assicura che i colori di sfondo vengano stampati */
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }
 }
 
-/* 2. Configurazione per lo SCHERMO (così vedi l'A4 mentre lavori) */
 .cv-page {
   width: 210mm;
   min-height: 297mm; /* min-height permette al contenuto di espandersi se serve */
@@ -45,7 +42,6 @@
   box-sizing: border-box;
 }
 
-/* Quando stampi, rimuovi ombre e margini esterni */
 @media print {
   .cv-page {
     margin: 0;

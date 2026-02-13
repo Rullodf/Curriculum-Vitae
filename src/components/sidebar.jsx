@@ -1,5 +1,5 @@
 import logo from '../assets/generation-logo.png';
-import profilePic from '../assets/pfp.jpg';
+import profilePic from '../assets/pfp.png';
 import { SideBarSection } from './sideBarSection';
 import { ContactLabel } from './contactLable';
 import phoneIcon from '../assets/phone-icon.png';
@@ -11,12 +11,12 @@ import githubIcon from '../assets/github-icon.svg';
 
 export function Sidebar() {
 	return (
-		<div className=" bg-generation-blue flex w-[7cm] shrink-0 flex-col text-white" >
+		<div className="flex w-[7cm] shrink-0 flex-col bg-generation-blue text-white" >
 			<div className='mx-3 my-4 w-[30mm]'>
 				<img src={logo} alt="Generation Logo" />
 			</div>
-			<div className='mx-auto flex h-[5cm] w-[5cm] items-center justify-center overflow-hidden rounded-full bg-amber-100'>
-				<img src={profilePic} alt="Profile Picture" className='h-full w-full object-cover' />
+			<div className='mx-auto flex size-[5cm] items-center justify-center overflow-hidden rounded-full bg-amber-100'>
+				<img src={profilePic} alt="Profile Picture" className='pt-16' />
 			</div>
 			<SideBarSection title="CONTATTI" first="true" >
 				<ContactLabel img={phoneIcon}>
@@ -29,7 +29,7 @@ export function Sidebar() {
 					{'23/02/2000\nGagliano del capo'}
 				</ContactLabel>
 				<ContactLabel img={homeIcon}>
-					{'Via Salvatore Farina 8\n10139, Torino (TO)'}
+					{'Via Salvatore Farina 8\n10134, Torino (TO)'}
 				</ContactLabel>
 				<ContactLabel img={linkedinIcon}>
 					<a href='https://www.linkedin.com/in/lorenzo-de-francesco-99ab8b2a6/' className='italic underline'>
@@ -44,9 +44,9 @@ export function Sidebar() {
 			</SideBarSection>
 			<SideBarSection title="PROFILO" className="text-sm/4">
 				Analitico, curioso e creativo.<br />
-				Specializzando in Ingegneria Informatica con una visione della programmazione come forma d’arte e innovazione.<br />
+				Laureando in Ingegneria Informatica con una visione della programmazione come forma d’arte e innovazione.<br />
 				Sono una persona empatica, professionale e orientata all&apos;eccellenza.<br />
-				Amo misurarmi con sfide tecniche sempre nuove, con l&apos;obiettivo di trasformare ogni progetto complesso in 
+				Amo misurarmi con sfide tecniche sempre nuove, con l&apos;obiettivo di trasformare ogni progetto complesso in
 				un’opportunità di apprendimento e di crescita costante.
 			</SideBarSection>
 			<SideBarSection title="AREE DI COMPETENZA" className="text-sm/4">
